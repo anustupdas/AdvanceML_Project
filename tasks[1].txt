@@ -1,0 +1,25 @@
+Preprocessing data (see http://scikit-learn.org/stable/modules/preprocessing.html):
+ - do we need standardization, mean removal, variance scaling for our algorithm
+ - replace NAN with mean of column? ->(http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Imputer.html)
+	-> Maybe taking mean evrywhere is not the best option?
+ - outlier detection?
+
+
+Choose important Features(http://scikit-learn.org/stable/modules/unsupervised_reduction.html):
+- which method can be used for feature reduction?
+- is this even needed or can we use all features?
+
+
+How to use histogram data:
+- use each bin as feature?
+- calculate mean, variance for each distribution and use this as feature instead
+
+
+How to include costs for missclassification in our algorithm?
+ - maybe this: "http://scikit-learn.org/stable/auto_examples/svm/plot_weighted_samples.html"?
+
+
+Using Cross Validation?
+
+
+
